@@ -1,6 +1,6 @@
 # leven [![Build Status](https://travis-ci.org/sindresorhus/leven.svg?branch=master)](https://travis-ci.org/sindresorhus/leven)
 
-> Measure the difference between two strings<br>
+> Measure the similarity(percentage) between two strings<br>
 > The fastest JS implementation of the [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance) algorithm
 
 

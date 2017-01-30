@@ -4,9 +4,6 @@ var arr = [];
 var charCodeCache = [];
 
 module.exports = function (a, b) {
-	if (a === b) {
-		return 0;
-	}
 
 	var aLen = a.length;
 	var bLen = b.length;
@@ -42,6 +39,6 @@ module.exports = function (a, b) {
 			ret = arr[i] = tmp > ret ? tmp2 > ret ? ret + 1 : tmp2 : tmp2 > tmp ? tmp + 1 : tmp2;
 		}
 	}
-
-	return ret;
+	
+	return 1-(ret/Math.max(aLen, bLen));
 };
